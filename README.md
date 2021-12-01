@@ -9,4 +9,4 @@ Inside the editor select `src/extension.ts` file, then press `F5`. This will com
 
 Run the Hello World command from the Command Palette (Ctrl+Shift+P). Then search for `helloworld: Show hello-world message` or `helloworld: Open file dialog and run` and click on it to call a command.
 
-:::image type="content" source="doc/3.png" alt-text="run":::
+<img src="./doc/3.png" alt="run"/>
