@@ -10,3 +10,19 @@ Inside the editor select `src/extension.ts` file, then press `F5`. This will com
 Run the Hello World command from the Command Palette (Ctrl+Shift+P). Then search for `helloworld: Show hello-world message` or `helloworld: Open file dialog and run` and click on it to call a command.
 
 <img src="./doc/3.png" alt="run"/>
+
+## VS Code API
+
+### `vscode` module
+
+- [`commands.registerCommand`](https://code.visualstudio.com/api/references/vscode-api#commands.registerCommand)
+- [`window.showInformationMessage`](https://code.visualstudio.com/api/references/vscode-api#window.showInformationMessage)
+
+### Contribution Points
+
+- [`contributes.commands`](https://code.visualstudio.com/api/references/contribution-points#contributes.commands)
+
+## Running the Sample
+
+- Run `npm install` in terminal to install dependencies
+- Run the `Run Extension` target in the Debug View.
